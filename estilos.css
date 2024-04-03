@@ -329,17 +329,26 @@ background-image: url(./fotos/finger-2956974_1920.jpg);
 
 
 .contactSec{
-    height: 550px;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content:space-evenly;
+    height: 100%;
+/*     display: flex;
+    flex-flow: column; */
+    justify-items: center; 
 }
 .contactSec div{
-    width: 60%;
-    text-align: center;
-    font-size: 30px;
+/* width: 60%; */
+padding-bottom: 10px;
+    text-align: center; 
+    font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+/*     justify-items: center; */
+}
+.contactSec p{
+    padding: 10px;
+}
+.contactSec form{
+    /* width: 50%; */
+    justify-content: center;
 }
 
 #locales{
