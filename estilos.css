@@ -67,21 +67,6 @@ h2{
     height: 40px;
     background-color: black;
 }
-/* .sec1{
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: 
-    "img1 img1 img2"
-    "img3 img3 img2"
-    "img3 img3 img4";
-    grid-gap: 15px;
-    padding: 20px;
-    /* justify-content:space-evenly;
-    align-items: center; 
-}  */
 
 .sec1{
     height: 100%;
@@ -96,8 +81,6 @@ h2{
     "img4";
     grid-gap: 15px;
     padding: 20px;
-    /* justify-content:space-evenly;
-    align-items: center; */
 }
 .caja{
     background-size: cover;
@@ -112,7 +95,6 @@ h2{
     text-align: center;
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* position: relative; */
     font-size: 40px;
     
 
@@ -226,43 +208,14 @@ footer .logo{
 }
 .fotDisplay{ 
     height: 100%; 
-    /* padding: 2px; */
-    /* margin: 3px; */
-    /* width: 100%; */
-    /* display: flex;
-    flex-wrap: wrap;
-    flex-flow: row wrap; */
     justify-content: center;
-    /* align-items: center;  */
 } 
 .cat h3{ 
     padding-top: 120px;
     width: 100%;
     height: 100%; 
-/*     background-color:rgba(255, 255, 255, 0.216); */
-    /* 
-     width: 100px; 
-    height: 100px; 
-    color: white; 
- background-color:rgba(227, 184, 184, 0.292);
-     text-align: center;
-    line-height: 280px; 
-    text-transform: uppercase; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-   position: relative;
-    width: 200px;
-    line-height: 280px;
-    height: 80px;
-    text-align: center;
-   font-size: 30px;
-    color: white;
-    background-color:rgba(255, 255, 255, 0.216);
-    border: 5px solid white;
-*/
 }  
-/* .cat h3:hover{
-    color: rgba(0, 0, 0, 0.622);
-} */ 
+
 
 .cat a{
     text-decoration: none;
@@ -271,11 +224,8 @@ footer .logo{
     line-height: 280px;
     color: white;
     text-transform: uppercase;
-    
-    /* background-color:rgba(227, 184, 184, 0.292); */
 } 
 .caja5{
-    /* width: 45%; */
     height: 280px; 
     background-image: url(./fotos/remeras.jpg);
     background-size: cover;
@@ -284,15 +234,12 @@ footer .logo{
 
 }
 .caja6{
-    /* width: 45%; */
     height: 280px; 
     background-image: url(./fotos/jeans.jpg);
     background-size: cover;
     background-position: left; 
-    /* text-decoration: none; */
 }
 .caja7{
-    /* width: 45%; */
     height: 280px; 
     background-image: url(./fotos/bermuda.jpg);
     background-size: cover;
@@ -300,7 +247,6 @@ footer .logo{
     text-decoration: none;
 }
 .caja8{
-    /* width: 45%; */
     height:280px; 
     background-image: url(./fotos/camperas.jpg);
     background-size: cover;
@@ -308,7 +254,6 @@ footer .logo{
     text-decoration: none;
 }
 .caja9{
-    /* width: 45%; */
     height: 280px;
     background-image: url(./fotos/zapatillas.jpg);
     background-size: cover;
@@ -316,7 +261,6 @@ footer .logo{
     text-decoration: none;
 }
 .caja10{
-    /* width: 45%; */
     height: 280px;
     background-image: url(./fotos/accesorios.jpg);
     background-size: cover;
@@ -330,24 +274,19 @@ background-image: url(./fotos/finger-2956974_1920.jpg);
 
 .contactSec{
     height: 100%;
-/*     display: flex;
-    flex-flow: column; */
     justify-items: center; 
 }
 .contactSec div{
-/* width: 60%; */
 padding-bottom: 10px;
     text-align: center; 
     font-size: 35px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: center;
-/*     justify-items: center; */
 }
 .contactSec p{
     padding: 10px;
 }
 .contactSec form{
-    /* width: 50%; */
     justify-content: center;
 }
 
@@ -357,59 +296,50 @@ padding-bottom: 10px;
     background-position: left;
     text-decoration: none;
     }
-    .local{
-        height: 900px;
-        display: flex;
-        flex-flow: column;
-        justify-content:space-evenly;
-        align-items: center;
-    }
-    .local ul{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 30px;
-        text-align: center;
-        text-transform: uppercase;
 
+.local{
+    height: 900px;
+    display: flex;
+    flex-flow: column;
+    justify-content:space-evenly;
+    align-items: center;
     }
-    .local h3{
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.local ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
-
+    text-align: center;
+    text-transform: uppercase;
     }
-    #franc{
-        background-image: url(./fotos/paris-1155008_1280.jpg);
+
+.local h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    }
+
+#franc{
+    background-image: url(./fotos/paris-1155008_1280.jpg);
     background-size: cover;
     background-position: left;
     text-decoration: none;
     }
+
     .franquic{
-        height: 100%;
-        /* display: grid; */
-        /* flex-flow: column; */
-    /*     justify-content:center;
-        align-items: center; */ 
+    height: 100%; 
 
     }
     .franquic div{
-        justify-content: center;
+    justify-content: center;
     }
+
     .franquic p{
-        text-align: center;
-        font-weight: 50;
-        font-size: 30px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        padding: 10px;
+    text-align: center;
+    font-weight: 50;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
     }
-/*     .franquic table{
-        align-items: center;
-        table-layout: fixed;
-        font-size: 30px;
-        width: 100%;
-        border-collapse: collapse;
-        text-transform: uppercase;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    } */
 
     /* inicio de las media queries */
 
