@@ -1,400 +1,355 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html {
+  scroll-behavior: smooth;
 }
-html{
-    scroll-behavior: smooth;
-}
-header{
-    background-color: white;
-    height: 80px;
-    padding: 20px;
-    
-}
-.logo{
-    float: left; 
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 30px;
 
-
+header {
+  background-color: white;
+  height: 80px;
+  padding: 20px;
 }
+
+.logo {
+  float: left;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 30px;
+}
+
 .barra {
-    float: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 22px;
-    background-color: white;
-    
-
+  float: right;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+.barra a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+.barra a:hover {
+  color: grey;
 }
 
-.barra a{
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
+main {
+  height: 400px;
+  width: 100%;
+  background-image: url(./fotos/underHeader.jpg);
+  background-size: cover;
+  background-position: left;
+  justify-content: center;
+  display: flex;
 }
 
-.barra a:hover{
-    color: grey;
+.etiqueta {
+  height: 160px;
+  width: 440px;
+  text-align: center;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.216);
+  border: 5px solid white;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  top: 150px;
 }
 
-main{
-    height: 400px;
-    width: 100%;
-    background-image: url(./fotos/woman-2564660_1920.jpg);
-    background-size: cover;
-    background-position: left;
-    justify-content: center;
-    display: flex;
+h2 {
+  height: 40px;
+  background-color: black;
 }
 
-.etiqueta{
-    width: 440px;
-    height: 160px;
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    background-color:rgba(255, 255, 255, 0.216);
-    border: 5px solid white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: relative;
-    top: 150px;
+.sec1 {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "img1" "img2" "img3" "img4";
+  grid-gap: 15px;
+  padding: 20px;
 }
 
-h2{
-    height: 40px;
-    background-color: black;
+.caja {
+  background-size: cover;
+  background-position: left;
+  text-decoration: none;
+}
+.caja h3 {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.292);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.caja a {
+  text-decoration: none;
+  color: white;
+}
+.caja :hover {
+  color: rgba(0, 0, 0, 0.622);
 }
 
-.sec1{
-    height: 100%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas: 
-    "img1"
-    "img2"
-    "img3"
-    "img4";
-    grid-gap: 15px;
-    padding: 20px;
-}
-.caja{
-    background-size: cover;
-    background-position: left;
-    text-decoration: none;
-}
-.caja h3{
-    width: 100%;
-    height: 100%;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.292);
-    text-align: center;
-    text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
-    
-
-
-}
-.caja a{
-    text-decoration: none;
-    color: white;
-} 
-.caja :hover{
-    color: rgba(0, 0, 0, 0.622);
+.caja1 {
+  background-image: url(./fotos/catalogoMain.jpg);
+  grid-area: img1;
+  line-height: 200px;
 }
 
-.caja1{
-    background-image: url(./fotos/man-2425121_1920.jpg);
-    grid-area: img1;
-line-height: 200px;
+.caja2 {
+  background-image: url(./fotos/localesMain.jpg);
+  grid-area: img2;
+  line-height: 200px;
 }
 
-.caja2{
-
-    background-image: url(./fotos/t-shirt-2351761_1920.jpg);
-    grid-area: img2;
-line-height: 200px; 
-}
-.caja3{
-
-    background-image: url(./fotos/paris-1155008_1280.jpg);
-    grid-area: img3;
-line-height: 200px;
-}
-.caja4{
-
-    background-image: url(./fotos/finger-2956974_1920.jpg);
-    grid-area: img4;
-line-height: 200px; 
+.caja3 {
+  background-image: url(./fotos/franquiciasMain.jpg);
+  grid-area: img3;
+  line-height: 200px;
 }
 
-
-.sec2{
-    height: 500px;
-    width: 100%;
-    background-image: url(./fotos/man-642063_1920.jpg);
-    background-size: cover;
-    background-position: left;
+.caja4 {
+  background-image: url(./fotos/contactoMain.jpg);
+  grid-area: img4;
+  line-height: 200px;
 }
 
-footer{
-    height: 110px;
-    width: 100%;
-    background-color: black;
-    
-}
-footer .logo{
-    padding-top: 35px;
-    padding-left: 20px;
-    color: white;
-}
-.frase{
-    justify-content: center;
-    position: relative;
-    top: 25px;
-    align-items: 50%;
-    margin-left: 40%;
-    color: white;
-    width: 25%;
-    height:50px;
-}
-.logosFooter a{
-    color: white;
-    float: right;
-    text-decoration: none;
-    font-size: 40px;
-    letter-spacing: 20px;
-    text-align: center;
-    position: relative;
-    bottom: 25px;
-    right: 15px;
+.sec2 {
+  height: 500px;
+  width: 100%;
+  background-image: url(./fotos/overFooter.jpg);
+  background-size: cover;
+  background-position: left;
 }
 
-
-.subir a{
-    color: rgb(52, 51, 51);
-    height: 40px;
-    width: 40px;
-    position: fixed;
-    right: 10px;
-    bottom: 110px;
-    font-size: 40px;
+footer {
+  height: 110px;
+  width: 100%;
+  background-color: black;
 }
-.calogDisplay{
-    width: 100%;
-    height: 100%;
-    
-} 
-.catalogTitle{
-    background-color: brown;
-    background-image: url(./fotos/main\ catalogo.jpg);
-    background-size: cover;
-    background-position: left;
-    height: 250px;
-    text-align: center;
-    color: antiquewhite;
-} 
-.catalogTitle h3{
-    line-height: 250px;
-    font-size: 60px;
-    text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:rgba(255, 255, 255, 0.216);
-}
-.fotDisplay{ 
-    height: 100%; 
-    justify-content: center;
-} 
-.cat h3{ 
-    padding-top: 120px;
-    width: 100%;
-    height: 100%; 
-}  
-
-
-.cat a{
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    line-height: 280px;
-    color: white;
-    text-transform: uppercase;
-} 
-.caja5{
-    height: 280px; 
-    background-image: url(./fotos/remeras.jpg);
-    background-size: cover;
-    background-position: left;
-    text-decoration: none;
-
-}
-.caja6{
-    height: 280px; 
-    background-image: url(./fotos/jeans.jpg);
-    background-size: cover;
-    background-position: left; 
-}
-.caja7{
-    height: 280px; 
-    background-image: url(./fotos/bermuda.jpg);
-    background-size: cover;
-    background-position: left;
-    text-decoration: none;
-}
-.caja8{
-    height:280px; 
-    background-image: url(./fotos/camperas.jpg);
-    background-size: cover;
-    background-position: left;
-    text-decoration: none;
-}
-.caja9{
-    height: 280px;
-    background-image: url(./fotos/zapatillas.jpg);
-    background-size: cover;
-    background-position: left;
-    text-decoration: none;
-}
-.caja10{
-    height: 280px;
-    background-image: url(./fotos/accesorios.jpg);
-    background-size: cover;
-    background-position: left;
-    text-decoration: none;
-}
-#contact{
-background-image: url(./fotos/finger-2956974_1920.jpg);
+footer .logo {
+  padding-top: 35px;
+  padding-left: 20px;
+  color: white;
 }
 
-
-.contactSec{
-    height: 100%;
-    justify-items: center; 
-}
-.contactSec div{
-padding-bottom: 10px;
-    text-align: center; 
-    font-size: 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    justify-content: center;
-}
-.contactSec p{
-    padding: 10px;
-}
-.contactSec form{
-    justify-content: center;
+.frase {
+  justify-content: center;
+  position: relative;
+  top: 25px;
+  align-items: 50%;
+  margin-left: 40%;
+  color: white;
+  height: 50px;
+  width: 25%;
 }
 
-#locales{
-    background-image: url(./fotos/local.jpg);
-    background-size: cover;
-    background-position: left;
-    text-decoration: none;
-    }
+.logosFooter a {
+  color: white;
+  float: right;
+  text-decoration: none;
+  font-size: 40px;
+  letter-spacing: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 25px;
+  right: 15px;
+}
 
-.local{
-    height: 900px;
-    display: flex;
-    flex-flow: column;
-    justify-content:space-evenly;
-    align-items: center;
-    }
+.subir a {
+  color: rgb(52, 51, 51);
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  right: 10px;
+  bottom: 110px;
+  font-size: 40px;
+}
 
-.local ul{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    text-align: center;
-    text-transform: uppercase;
-    }
+.calogDisplay {
+  height: 100%;
+  width: 100%;
+}
 
-.local h3{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    }
+.catalogTitle {
+  background-color: brown;
+  background-image: url(./fotos/catalogoBanner.jpg);
+  background-size: cover;
+  background-position: left;
+  height: 250px;
+  text-align: center;
+  color: antiquewhite;
+}
+.catalogTitle h3 {
+  line-height: 250px;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(255, 255, 255, 0.216);
+}
 
-#franc{
-    background-image: url(./fotos/paris-1155008_1280.jpg);
-    background-size: cover;
-    background-position: left;
-    text-decoration: none;
-    }
+.fotDisplay {
+  height: 100%;
+  justify-content: center;
+}
 
-    .franquic{
-    height: 100%; 
+.cat h3 {
+  padding-top: 120px;
+  height: 100%;
+  width: 100%;
+}
+.cat a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  line-height: 280px;
+  text-transform: uppercase;
+}
 
-    }
-    .franquic div{
-    justify-content: center;
-    }
+.cajas, #franc, #locales, .caja10, .caja9, .caja8, .caja7, .caja6, .caja5 {
+  background-size: cover;
+  background-position: left;
+  text-decoration: none;
+}
 
-    .franquic p{
-    text-align: center;
-    font-weight: 50;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
-    }
+.caja5 {
+  background-image: url(./fotos/remerasCatalog.jpg);
+  height: 280px;
+}
 
-    /* inicio de las media queries */
+.caja6 {
+  background-image: url(./fotos/jeansCatalog.jpg);
+  height: 280px;
+}
 
-    @media only screen and (min-width:768px) {
-    .sec1{
+.caja7 {
+  background-image: url(./fotos/bermudaCatalog.jpg);
+  height: 280px;
+}
+
+.caja8 {
+  background-image: url(./fotos/camperasCatalog.jpg);
+  height: 280px;
+}
+
+.caja9 {
+  background-image: url(./fotos/zapatillasCatalog.jpg);
+  height: 280px;
+}
+
+.caja10 {
+  background-image: url(./fotos/zapatillasCatalog.jpg);
+  height: 280px;
+}
+
+#contact {
+  background-image: url(./fotos/contactoMain.jpg);
+}
+
+.contactSec {
+  height: 100%;
+  justify-items: center;
+}
+.contactSec div {
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+}
+.contactSec p {
+  padding: 10px;
+}
+.contactSec form {
+  justify-content: center;
+}
+
+#locales {
+  background-image: url(./fotos/FranquiciasBanner.jpg);
+}
+
+.local {
+  height: 900px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.local ul {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+.local h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#franc {
+  background-image: url(./fotos/franquiciasMain.jpg);
+}
+
+.franquic {
+  height: 100%;
+}
+.franquic div {
+  justify-content: center;
+}
+.franquic p {
+  text-align: center;
+  font-weight: 50;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+}
+
+/* inicio de las media queries */
+@media only screen and (min-width: 768px) {
+  .sec1 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: 
-    "img1 img1 img2"
-    "img3 img3 img2"
-    "img3 img3 img4";
-} 
-.caja1{
+    grid-template-areas: "img1 img1 img2" "img3 img3 img2" "img3 img3 img4";
+  }
+  .caja1 {
     line-height: 200px;
-}
-.caja2{
+  }
+  .caja2 {
     line-height: 450px;
-}
-.caja4{
+  }
+  .caja4 {
     line-height: 200px;
-}
-.caja3{
+  }
+  .caja3 {
     line-height: 450px;
-}
-.etiqueta{
-    background-color:rgba(255, 255, 255, 0.216);
-    border: 5px solid white; 
+  }
+  .etiqueta {
+    background-color: rgba(255, 255, 255, 0.216);
+    border: 5px solid white;
     width: 500px;
+  }
 }
-    }
-    @media only screen and (min-width:1024px) {
-        .sec1{
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        grid-template-areas: 
-        "img1 img1 img1 img1"
-        "img1 img1 img1 img1"
-        "img3 img3 img2 img4"
-        "img3 img3 img2 img4";
-    } 
-    .caja1{
-        line-height: 450px;
-    }
-    .caja2{
-        line-height: 450px;
-    }
-    .caja4{
-        line-height: 450px;
-    }
-    .caja3{
-        line-height: 450px;
-    } 
-    .etiqueta{
-        background-color:rgba(255, 255, 255, 0.216);
-        border: 5px solid white; 
-        width: 500px;
-    }
-        }
+@media only screen and (min-width: 1024px) {
+  .sec1 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "img1 img1 img1 img1" "img1 img1 img1 img1" "img3 img3 img2 img4" "img3 img3 img2 img4";
+  }
+  .caja1, .caja2, .caja4, .caja3 {
+    line-height: 450px;
+  }
+  .etiqueta {
+    background-color: rgba(255, 255, 255, 0.216);
+    border: 5px solid white;
+    width: 500px;
+  }
+}/*# sourceMappingURL=estilos.css.map */
