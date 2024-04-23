@@ -255,7 +255,7 @@
   }
   
   .caja10 {
-    background-image: url(./fotos/zapatillasCatalog.jpg);
+    background-image: url(./fotos/accesoriosCatalog.jpg);
     @extend .cajas;
     height: 280px;
   }
@@ -290,7 +290,7 @@
   }
   
   .local {
-    height: 900px;
+    height: 100%;
     display: flex;
     flex-flow: column;
     justify-content: space-evenly;
@@ -306,6 +306,9 @@
       text-align: center;
       @include fuente(30px);
     }
+  }
+  .titulo{
+    color: black;
   }
   
   #franc {
@@ -329,7 +332,6 @@
   }
   
   /* inicio de las media queries */
-  
   @media only screen and (min-width: 768px) {
     .sec1 {
       grid-template-columns: repeat(3, 1fr);

@@ -246,7 +246,7 @@ footer .logo {
 }
 
 .caja10 {
-  background-image: url(./fotos/zapatillasCatalog.jpg);
+  background-image: url(./fotos/accesoriosCatalog.jpg);
   height: 280px;
 }
 
@@ -273,11 +273,11 @@ footer .logo {
 }
 
 #locales {
-  background-image: url(./fotos/localesMain.jpg);
+  background-image: url(./fotos/FranquiciasBanner.jpg);
 }
 
 .local {
-  height: 900px;
+  height: 100%;
   display: flex;
   flex-flow: column;
   justify-content: space-evenly;
@@ -293,6 +293,10 @@ footer .logo {
   text-align: center;
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo {
+  color: black;
 }
 
 #franc {
