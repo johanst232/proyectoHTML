@@ -12,7 +12,7 @@
   }
   
   header {
-    background-color: $color1;
+    background-color:$color1 ;
     height: 80px;
     padding: 20px;
   }
@@ -271,7 +271,7 @@
     div {
       padding-bottom: 10px;
       text-align: center;
-      @include fuente(35px);
+      @include fuente(30px);
       justify-content: center;
     }
   
@@ -286,7 +286,7 @@
   
   #locales {
     background-image: url(./fotos/FranquiciasBanner.jpg);
-    @extend .cajas;
+   /*  @extend .cajas; */
   }
   
   .local {
@@ -295,13 +295,6 @@
     flex-flow: column;
     justify-content: space-evenly;
     align-items: center;
-  
-    ul {
-        @include fuente(30px);
-      text-align: center;
-      text-transform: uppercase;
-    }
-  
     h3 {
       text-align: center;
       @include fuente(30px);
@@ -324,7 +317,6 @@
     }
   
     p {
-      text-align: center;
       font-weight: 50;
       @include fuente(30px);
       padding: 10px;
@@ -360,6 +352,9 @@
       border: 5px solid $color1;
       width: 500px;
     }
+  }
+  .catalogTitle h3{
+    @include fuente(40px);
   }
   
   @media only screen and (min-width: 1024px) {
