@@ -52,7 +52,7 @@ body{
   }
   main {
     @include tamaños(400px,100%);
-    background-image: url(./fotos/underHeader.jpg);
+    background-image: url(./fotos/underHeader.webp);
     background-size: cover;
     background-position: left;
     justify-content: center;
@@ -113,32 +113,32 @@ body{
     }
   }
   .caja1 {
-    background-image: url(./fotos/catalogoMain.jpg);
+    background-image: url(./fotos/catalogoMain.webp);
     grid-area: img1;
     height: 200px;
   }
   
   .caja2 {
-    background-image: url(./fotos/localesMain.jpg);
+    background-image: url(./fotos/localesMain.webp);
     grid-area: img2;
     height: 200px;
   }
   
   .caja3 {
-    background-image: url(./fotos/franquiciasMain.jpg);
+    background-image: url(./fotos/franquiciasMain.webp);
     grid-area: img3;
     height: 200px;
   }
   
   .caja4 {
-    background-image: url(./fotos/contactoMain.jpg);
+    background-image: url(./fotos/contactoMain.webp);
     grid-area: img4;
     height: 200px;
   }
   
   .sec2 {
     @include tamaños(500px,100%);
-    background-image: url(./fotos/overFooter.jpg);
+    background-image: url(./fotos/overFooter.webp);
     background-size: cover;
     background-position: left;
   }
@@ -176,7 +176,7 @@ body{
   
   .catalogTitle {
     background-color: brown;
-    background-image: url(./fotos/catalogoBanner.jpg);
+    background-image: url(./fotos/catalogoBanner.webp);
     background-size: cover;
     background-position: left;
     height: 250px;
@@ -217,43 +217,43 @@ body{
 
   }
   .caja5 {
-    background-image: url(./fotos/remerasCatalog.jpg);
+    background-image: url(./fotos/remerasCatalog.webp);
     @extend .cajas;
     height: 280px;
   }
   
   .caja6 {
-    background-image: url(./fotos/jeansCatalog.jpg);
+    background-image: url(./fotos/jeansCatalog.webp);
     @extend .cajas;
     height: 280px;
   }
   
   .caja7 {
-    background-image: url(./fotos/bermudaCatalog.jpg);
+    background-image: url(./fotos/bermudaCatalog.webp);
     @extend .cajas;
     height: 280px;
   }
   
   .caja8 {
-    background-image: url(./fotos/camperasCatalog.jpg);
+    background-image: url(./fotos/camperasCatalog.webp);
     @extend .cajas;
     height: 280px;
   }
   
   .caja9 {
-    background-image: url(./fotos/zapatillasCatalog.jpg);
+    background-image: url(./fotos/zapatillasCatalog.webp);
     @extend .cajas;
     height: 280px;
   }
   
   .caja10 {
-    background-image: url(./fotos/accesoriosCatalog.jpg);
+    background-image: url(./fotos/accesoriosCatalog.webp);
     @extend .cajas;
     height: 280px;
   }
   
   #contact {
-    background-image: url(./fotos/contactoMain.jpg);
+    background-image: url(./fotos/contactoMain.webp);
   }
   
   .contactSec {
@@ -277,7 +277,7 @@ body{
   }
   
   #locales {
-    background-image: url(./fotos/FranquiciasBanner.jpg);
+    background-image: url(./fotos/FranquiciasBanner.webp);
   }
   
   .local {
@@ -296,7 +296,7 @@ body{
   }
   
   #franc {
-    background-image: url(./fotos/franquiciasMain.jpg);
+    background-image: url(./fotos/franquiciasMain.webp);
     @extend .cajas;
   }
   
