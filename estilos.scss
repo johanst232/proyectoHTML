@@ -147,32 +147,18 @@ body{
     @include tamaños(110%,100%);
     background-color: #A77E58;
     .logo {
-/*       padding-top: 35px;
-      padding-left: 20px; */
       color: $color1;
     }
   }
   
   .frase {
-    /* justify-content: center;
-    position: relative; */
-    /* top: 25px; */
-    /* align-items: 50%; */
-  /*   margin-left: 40%; */
     color: $color1;
-    /* @include tamaños(50px,25%); */
   }
   
   .logosFooter a {
     color: $color1;
-    /* float: right; */
     text-decoration: none;
     font-size: 40px;
-    /* letter-spacing: 20px;
-    text-align: center;
-    position: relative;
-    bottom: 25px;
-    right: 15px; */
   }
   
   .subir a {
@@ -292,7 +278,6 @@ body{
   
   #locales {
     background-image: url(./fotos/FranquiciasBanner.jpg);
-   /*  @extend .cajas; */
   }
   
   .local {
