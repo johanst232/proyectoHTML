@@ -362,4 +362,24 @@ footer .logo {
     border: 5px solid white;
     width: 500px;
   }
+}
+@media only screen and (max-width: 765px) {
+  .caja5 {
+    width: 80%;
+  }
+  .caja6 {
+    width: 80%;
+  }
+  .caja7 {
+    width: 80%;
+  }
+  .caja8 {
+    width: 80%;
+  }
+  .caja9 {
+    width: 80%;
+  }
+  .caja10 {
+    width: 80%;
+  }
 }/*# sourceMappingURL=estilos.css.map */

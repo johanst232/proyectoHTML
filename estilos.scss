@@ -359,6 +359,7 @@ body{
     @include fuente(40px);
   }
   
+  
   @media only screen and (min-width: 1024px) {
     .sec1 {
       grid-template-columns: repeat(4, 1fr);
@@ -383,4 +384,23 @@ body{
       width: 500px;
     }
   }
-  
+  @media only screen and (max-width: 765px) {
+  .caja5{
+    width: 80%;
+  }
+  .caja6{
+    width: 80%;
+  }
+  .caja7{
+    width: 80%;
+  }
+  .caja8{
+    width: 80%;
+  }
+  .caja9{
+    width: 80%;
+  }
+  .caja10{
+    width: 80%;
+  }
+  }
