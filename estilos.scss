@@ -65,6 +65,9 @@
     @include fuente(30px);
     position: relative;
     top: 150px;
+    h1{
+      line-height: 150px;
+    }
   }
   
   h2 {
@@ -79,7 +82,7 @@
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: "img1" "img2" "img3" "img4";
     grid-gap: 15px;
-    padding: 20px;
+    padding: 20px; 
   }
   
   .caja {
@@ -94,6 +97,7 @@
       text-align: center;
       text-transform: uppercase;
       @include fuente(40px);
+      line-height: 200px;
     }
   
     a {
@@ -108,25 +112,25 @@
   .caja1 {
     background-image: url(./fotos/catalogoMain.jpg);
     grid-area: img1;
-    line-height: 200px;
+    height: 200px;
   }
   
   .caja2 {
     background-image: url(./fotos/localesMain.jpg);
     grid-area: img2;
-    line-height: 200px;
+    height: 200px;
   }
   
   .caja3 {
     background-image: url(./fotos/franquiciasMain.jpg);
     grid-area: img3;
-    line-height: 200px;
+    height: 200px;
   }
   
   .caja4 {
     background-image: url(./fotos/contactoMain.jpg);
     grid-area: img4;
-    line-height: 200px;
+    height: 200px;
   }
   
   .sec2 {
@@ -137,36 +141,35 @@
   }
   
   footer {
-    @include tamaños(110px,100%);
+    @include tamaños(110%,100%);
     background-color: black;
-  
     .logo {
-      padding-top: 35px;
-      padding-left: 20px;
+/*       padding-top: 35px;
+      padding-left: 20px; */
       color: $color1;
     }
   }
   
   .frase {
-    justify-content: center;
-    position: relative;
-    top: 25px;
-    align-items: 50%;
-    margin-left: 40%;
+    /* justify-content: center;
+    position: relative; */
+    /* top: 25px; */
+    /* align-items: 50%; */
+  /*   margin-left: 40%; */
     color: $color1;
-    @include tamaños(50px,25%);
+    /* @include tamaños(50px,25%); */
   }
   
   .logosFooter a {
     color: $color1;
-    float: right;
+    /* float: right; */
     text-decoration: none;
     font-size: 40px;
-    letter-spacing: 20px;
+    /* letter-spacing: 20px;
     text-align: center;
     position: relative;
     bottom: 25px;
-    right: 15px;
+    right: 15px; */
   }
   
   .subir a {
@@ -328,24 +331,35 @@
     .sec1 {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
-      grid-template-areas: "img1 img1 img2" "img3 img3 img2" "img3 img3 img4";
+      grid-template-areas: "img1 img1 img2""img3 img3 img2""img3 img3 img4";
     }
 
     .caja1 {
-      line-height: 200px;
+    height: 200px;
+    h3{
+    line-height: 200px;  
     }
-  
+    } 
     .caja2 {
-      line-height: 450px;
+    height: 400px;
+    h3{
+      line-height: 400px;  
+      }
     }
   
     .caja4 {
-      line-height: 200px;
+    height: 200px;
+    h3{
+      line-height: 200px;  
+      }
     }
   
     .caja3 {
-      line-height: 450px;
-    }
+    height: 415px;
+    h3{
+      line-height: 415px;  
+      }
+    } 
   
     .etiqueta {
       background-color: rgba(255, 255, 255, 0.216);
@@ -361,11 +375,18 @@
     .sec1 {
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: repeat(4, 1fr);
-      grid-template-areas: "img1 img1 img1 img1" "img1 img1 img1 img1" "img3 img3 img2 img4" "img3 img3 img2 img4";
+      grid-template-areas: 
+      "img1 img1 img1 img1"
+      "img1 img1 img1 img1"
+      "img3 img3 img2 img4"
+      "img3 img3 img2 img4";
     }
   
     .caja1, .caja2, .caja4, .caja3 {
-      line-height: 450px;
+      height: 450px;
+      h3{
+        line-height: 450px;  
+        }
     }
   
     .etiqueta {
