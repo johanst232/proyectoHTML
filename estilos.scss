@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
   $fuente1:'Courier New', Courier, monospace;
   $fuente2: Verdana, Geneva, Tahoma, sans-serif;
   $color1: white;
-
+body{
+  background-color: #EDF5FC;
+}
   html {
     scroll-behavior: smooth;
   }
@@ -142,7 +145,7 @@
   
   footer {
     @include tamaños(110%,100%);
-    background-color: black;
+    background-color: #A77E58;
     .logo {
 /*       padding-top: 35px;
       padding-left: 20px; */
