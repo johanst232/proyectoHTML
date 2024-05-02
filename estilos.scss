@@ -348,12 +348,11 @@ body{
       line-height: 415px;  
       }
     } 
-  
     .etiqueta {
       background-color: rgba(255, 255, 255, 0.216);
       border: 5px solid $color1;
-      width: 500px;
-    }
+      width: 600px;
+    } 
   }
   .catalogTitle h3{
     @include fuente(40px);
@@ -378,29 +377,15 @@ body{
         }
     }
   
-    .etiqueta {
+/* .etiqueta {
       background-color: rgba(255, 255, 255, 0.216);
       border: 5px solid $color1;
       width: 500px;
-    }
+    }  */
   }
-  @media only screen and (max-width: 765px) {
-  .caja5{
-    width: 80%;
+@media only screen and (max-width: 765px) {
+  .etiqueta{
+  width: 80%;
+  font-size: 80%;
   }
-  .caja6{
-    width: 80%;
-  }
-  .caja7{
-    width: 80%;
-  }
-  .caja8{
-    width: 80%;
-  }
-  .caja9{
-    width: 80%;
-  }
-  .caja10{
-    width: 80%;
-  }
-  }
+} 

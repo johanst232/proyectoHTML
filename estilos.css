@@ -337,7 +337,7 @@ footer .logo {
   .etiqueta {
     background-color: rgba(255, 255, 255, 0.216);
     border: 5px solid white;
-    width: 500px;
+    width: 600px;
   }
 }
 .catalogTitle h3 {
@@ -357,29 +357,15 @@ footer .logo {
   .caja1 h3, .caja2 h3, .caja4 h3, .caja3 h3 {
     line-height: 450px;
   }
-  .etiqueta {
-    background-color: rgba(255, 255, 255, 0.216);
-    border: 5px solid white;
-    width: 500px;
-  }
+  /* .etiqueta {
+        background-color: rgba(255, 255, 255, 0.216);
+        border: 5px solid $color1;
+        width: 500px;
+      }  */
 }
 @media only screen and (max-width: 765px) {
-  .caja5 {
+  .etiqueta {
     width: 80%;
-  }
-  .caja6 {
-    width: 80%;
-  }
-  .caja7 {
-    width: 80%;
-  }
-  .caja8 {
-    width: 80%;
-  }
-  .caja9 {
-    width: 80%;
-  }
-  .caja10 {
-    width: 80%;
+    font-size: 80%;
   }
 }/*# sourceMappingURL=estilos.css.map */
