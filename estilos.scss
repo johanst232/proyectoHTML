@@ -376,16 +376,13 @@ body{
         line-height: 450px;  
         }
     }
-  
-/* .etiqueta {
-      background-color: rgba(255, 255, 255, 0.216);
-      border: 5px solid $color1;
-      width: 500px;
-    }  */
   }
 @media only screen and (max-width: 765px) {
   .etiqueta{
   width: 80%;
   font-size: 80%;
+  }
+  .subir a{
+    visibility: hidden;
   }
 } 
